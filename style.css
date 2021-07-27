@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Muller', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    max-width: 1146px;
+    padding: 1rem 3rem;
+   
+}
+.btn{
+    padding: 5px 40px ;
+    border: 1px solid #2F80ED;
+    background: #2F80ED;
+    color: #fff;
+    font-size: 11px;
+    border-radius:5px ;
+    box-shadow: 0px 0px 20px 1px  #2F80ED;
+    cursor: pointer;
+}
+.i{
+   margin-left: 20px;
+}
+/* Navbar */
+#navbar{
+    margin: 10px 0;
+}
+#navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img{
+    cursor: pointer;
+}
+#navbar i{
+    display: none;
+}
+#navbar .container div{
+    display: flex;
+}
+#navbar .container .tel h6{
+  color: #2F80ED;
+  border: 1px solid  #2F80ED; 
+  margin:20px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#navbar .container h5{
+    margin: 30px 20px;
+}
+
+#navbar .logo h6{
+    font-weight: 80;
+    margin: 15px 20px;
+    color: rgb(121, 121, 113);
+}
+/* Girl */
+#girl{
+    margin-top: 50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.r-text{
+    display: none;
+}
+#girl h1{
+    margin: 30px 0;
+}
+#girl h5{
+    margin: 50px 0;
+    color: rgb(121, 121, 113);
+    font-weight: 180;
+}
+#girl .stars{
+    display: flex;
+    font-size: 15px;
+    margin: 0 20px 0 0;
+    flex-direction: column;
+    text-align: left;  
+}
+#girl .stars1{
+    display: flex;
+}
+#girl .star-2{
+    display: none;
+}
+
+#girl .star{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;  
+    color: rgb(37, 37, 35);
+}
+#girl .stars:nth-child(2) .star:first-child{
+    margin-right: 60px;
+}
+#girl .stars:nth-child(1) .star:first-child{
+    margin-right: 29px;
+}
+.gr-text1 h6{
+    font-size: 10px;
+    font-weight: 150;
+    margin: 60px 0 0 5px;
+}
+#girl .gr-text1 button{
+    margin-top:10px;
+}
+/* domeo */
+#domeo h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+#domeo h6{
+    text-align: center;
+    color: rgb(121, 121, 113);
+    font-weight: 400;
+    margin-top: 10px;
+}
+#domeo .number{ 
+    border: 1px solid rgb(229, 235, 240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 30px 20px 30px;
+    padding: 15px 70px;
+    height: 100px;
+   
+}
+#domeo .number1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+   
+}
+#domeo .i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    background: #FFCF10;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+#domeo .i img{
+    margin: 0 20px;
+}
+.number2{
+    display: none;
+}
+/* 5-step */
+#steps .step .text{
+    margin: 40px 0;
+
+}
+#steps .step-1{
+    display: flex;
+}
+#steps h1{
+    text-align: center;
+}
+#steps h6{
+    text-align: center;
+    color: rgb(121, 121, 113);
+    font-weight: 400;
+    margin: 10px ;
+}
+#steps .step-imgs{
+    display: flex;
+    margin-right: 30px;
+    flex-direction: column;
+}
+
+#steps .step-img{
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+}
+#steps .step-img h5{
+    font-weight: 200;
+    margin-left: 10px;
+}
+#steps .i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    background: #FFCF10;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+#steps .i img{
+    margin-right: 20px;
+}
+#steps h5{
+    text-align: center;
+    font-weight: 500;
+}
+#steps .names{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#steps .name .p{
+    font-size: 10px;
+    margin-top: 4px;
+}
+#steps .names p{
+    font-size: 11px;
+}
+#steps .name h6{
+    margin: 10px 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #848588;
+}
+#steps .name .b{
+    margin-top: 50px;
+    text-align: center;
+}
+/* Domeo */
+#Domeo h1{
+    text-align: center;
+    margin-top: 60px;
+}
+#Domeo p{
+    display: none;
+}
+#Domeo h6{
+    text-align: center;
+    color: rgb(121, 121, 113);
+    font-weight: 400;
+    margin: 10px 0 30px 0 ;
+}#Domeo .selects{
+    margin-top: 90px;
+    padding: 25px 40px 30px 40px ;
+    border: 1px solid #2F80ED;
+    border-radius: 15px;
+    margin: auto;
+    width: 60%;
+}
+#Domeo .selects h5{
+    text-align: center;
+    font-size: 17px;
+}
+#Domeo .selects h6{
+    text-align: center;
+    color: rgb(121, 121, 113);
+    font-weight: 400;
+    margin: 15px 0 40px 0 ;
+
+}
+#Domeo .selects form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Domeo .selects form .select{
+    display: flex;
+    margin-bottom: 7px;
+}
+#Domeo .selects form .select input{
+    margin-right: 10px;
+}
+#Domeo .selects form button{
+    margin: 40px 20px 0 400px;
+}
+#Domeo .selects form .select label{
+    font-size: 14px;
+}
+
+/* 4-step */
+#-step h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#-step h6{
+    text-align: center;
+    color: rgb(121, 121, 113);
+    font-weight: 400;
+    margin: 15px 0 40px 0 ;
+
+}
+#-step .office{
+    margin-right: 30px;
+}
+#-step .office .s-text{
+    display: flex;
+    padding: 10px 20px ;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid #FFCF10;
+}
+#-step .offices{
+    display: flex;
+}
+#-step .office .s-text img{
+    margin:0 10px;
+}
+/* ches */
+#ches{
+    margin-top: 40px;
+}
+#ches .h5{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    color: #2F80ED;
+}
+#ches h6:nth-child(2){
+    text-align: center;
+    color: rgb(121, 121, 113);
+    font-weight: 400;
+    margin: 15px 0 40px 0 ;
+}
+#ches .ches{
+    display: flex;
+}
+#ches .ches h6{
+    line-height: 2rem;
+    font-size: 15px;
+    margin-left: 20px;
+}
+#ches h1{
+    text-align: center;
+}
+#ches .i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    background: #FFCF10;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+#ches .i img{
+    margin-right: 20px;
+}
+/* online */
+#online h1{
+    text-align: center;
+    margin: 30px;
+}
+#online h4{
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+#online h6{
+    text-align: center;
+    color: rgb(121, 121, 113);
+    font-weight: 400;
+    margin: 15px 0 40px 0 ;
+}
+#online .on{
+    display: flex;
+}
+#online .on .vo{
+    margin: 30px 0;
+}
+#online .on .vo .o{
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+}
+#online .on .vo .o h5{
+    margin-left: 20px;
+}
+#online .on .no{
+    margin: 20px 70px;
+}
+#online .on .no .name{
+    margin:10px 0 ;
+}
+#online .on .no .name h6{
+    border: 1px solid #999;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#online .on .no .name p{
+    font-size: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+#online .i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+    background: #FFCF10;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+
+#online .i img{
+    margin-right: 20px;
+}
+#online .span{
+    color: #2F80ED;
+}
+/* map */
+#map h1{
+    text-align: center;
+}
+#map .contact{
+    margin: 30px;
+}
+#map .h6{
+    text-align: center;
+    color: rgb(121, 121, 113);
+    font-weight: 400;
+    margin: 15px 0 40px 0 ;
+}
+#map h6{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0 20px 0;
+}
+#map .map{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#map .map .name h6{
+    padding: 10px 20px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+#map .map .name h4{
+    text-align: center;
+}
+#map .name p{
+    font-size: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+#map .name .span{
+    color: #2F80ED;
+}
+#map .i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+    background: #FFCF10;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+#map .i img{
+    margin-right: 20px;
+}
+@media(max-width:1146px){
+    #steps .step-1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #steps .step-img{
+        display: flex;
+        flex-direction: column;
+    }
+    #steps .step{
+        width: 70%;
+        margin: auto;
+    }
+    #steps .step img{
+        width: 70%;
+        margin: auto;
+        margin:0 60px;
+    }
+}
+@media(max-width:1030px){
+    #ches .ches {
+        display: flex;
+        flex-direction: column;
+    }
+    #ches .ches .video iframe{
+        width: 100%;
+    }
+    #ches .ches .ch-text h6{
+        margin-top: 10px;
+    }
+}
+@media(max-width:990px){
+    #Domeo form button.btn{
+      margin:  40px 120px 0 300px;
+    }
+}
+@media(max-width:950px){
+    #girl .stars1{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar .tel h6{
+        display: none;
+    }
+    #navbar .tel i{
+        display: inline;
+        margin-right: 20px;
+        color: #2F80ED;
+    }
+    #navbar .container .tel{
+        display: flex;
+        align-items: center;
+    }
+    #girl h1:first-child{
+        display: block;
+    }
+    
+}
+@media(max-width:900px){
+    #online .on{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #map .map{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #map .map iframe{
+        width: 90%;
+    }
+}
+@media(max-width:850px){
+    #girl .gr-text h1,
+    #girl .gr-text h5{
+        display: none;
+    }
+    #-step .offices{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #-step .office{
+        width: 40%;
+        margin: 10px 0;
+    }
+    .number1{
+        display: none !important;
+    }
+    .number2{
+        display: inline;
+    }
+    .r-text{
+        display: block;
+        text-align: center;
+    }
+    #domeo .number1{
+        display: flex;
+        flex-direction: column;
+    }
+    #domeo .number{
+        height: 160px;
+    }
+    
+}
+@media(max-width:770px){
+    #steps .names{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #steps .names .name .b{
+        margin-top: 20px;
+        padding: 5px 0px;
+    }
+    #Domeo h5{
+        display: none;
+    }
+    #Domeo p{
+        display: block;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+    }
+    #Domeo form{
+        height: 50%;
+    }
+}
+@media(max-width:700px){
+    #Domeo form button.btn{
+        margin:  10px 210px 0 210px;
+      }
+      body{
+          text-align: center;
+      }
+      .o{
+          text-align: left;
+      }
+}
+
+@media(max-width:600px){
+    #navbar .tel h5{
+       display: none;
+    }
+    #steps .step img{
+        margin:0 40px;
+    }
+    #girl .gr-text{
+        display: none;
+    }
+    #girl .star-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem;
+        padding:  2rem;
+    }
+    #girl .star-2 .stars1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #girl{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #navbar .logo h6{
+        display: none;
+    }
+    .container{
+        padding: 1rem 0rem 1rem .8rem;
+    }
+    .r-text{
+        font-size: 10px;
+    }
+    .i img{
+        display: none;
+    }
+    .gr-text1{
+        display: block;
+        text-align: center;
+    }
+}
+@media(max-width:570px){
+    #steps .step img{
+        margin:0 20px;
+    }
+    #Domeo .selects h6{
+        margin: 10px 0;
+    }
+    #Domeo .selects{
+        padding:15px 5px;
+    }
+    #Domeo .selects .select{
+        margin:0 0 4px 0;
+    }
+    #-step .office{
+        width: 100%;
+    }
+}
+@media(max-width:430px){
+    #ches .ch-text h6{
+        font-size: 12px;
+        line-height: 1rem;
+        margin: 0;
+    }
+}
